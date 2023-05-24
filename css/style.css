@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#parent {
+  max-width: 830px;
+  margin: 20px auto;
+}
+
+.group {
+  display: flex;
+}
+
+.box {
+  padding: 1px 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  margin: 4px;
+  width: 35px;
+}
+
+.red {
+  background-color: #fc9699;
+}
+
+.blue {
+  background-color: #99cefd;
+}
+
+.yellow {
+  background-color: #fffd94;
+}
+
+.green {
+  background-color: #a3fea0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+}
+
+.last-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
